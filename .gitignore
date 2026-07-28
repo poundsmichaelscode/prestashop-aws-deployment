@@ -1,0 +1,48 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database credentials
+config/settings.inc.php
+
+# Cache
+var/cache/
+cache/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Node dependencies
+node_modules/
+
+# Composer dependencies
+vendor/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Database backups
+*.sql
+*.sql.gz
+
+# SSH keys and certificates
+*.pem
+*.key
+
+# Generated files
+img/tmp/
